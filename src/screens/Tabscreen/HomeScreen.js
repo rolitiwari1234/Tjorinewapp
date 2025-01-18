@@ -1,11 +1,11 @@
 import React from "react";
 import { createNativeStackNavigator } from "@react-navigation/native-stack";
-import Homepage from "../../../Src/Screens/Homescreen/Homepage";
-import Categorieslogo from "../../../Src/Screens/Categoriesitem/Categorieslogo";
-import CategoriesData from "../../../Src/Screens/CategoriesData";
-import Categoriesbanner from "../../../Src/Screens/Categoriesitem/Categoriesbanner";
-import Plppage from "../../../Src/Screens/Plppage";
-import Pdppage from "../../../Src/Screens/PlpScreen/Pdppage";
+import Homepage from "../../../src/screens/Homescreen/Homepage";
+import Categorieslogo from "../../../src/screens/Categoriesitem/Categorieslogo";
+import CategoriesData from "../../../src/screens/CategoriesData";
+import Categoriesbanner from "../../../src/screens/Categoriesitem/Categoriesbanner";
+import Plppage from "../../../src/screens/Plppage";
+import Pdppage from "../../../src/screens/PlpScreen/Pdppage";
 
 
 const HomeStack = createNativeStackNavigator();

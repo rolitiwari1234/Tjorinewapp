@@ -1,7 +1,7 @@
 import { View, Text, Image, SafeAreaView, StyleSheet } from "react-native";
 import React from "react";
 import { responsiveFontSize } from "react-native-responsive-dimensions";
-import Colors from "../Utils/Colors";
+
 
 const Section = ({ text1, text2, image }) => {
   return (
@@ -29,7 +29,7 @@ const styles = StyleSheet.create({
     alignItems: "center",
   },
   toptext: {
-    color: Colors.BROWN,
+    color: "#065534",
     fontFamily: "PlayfairDisplay-Regular",
     fontSize: responsiveFontSize(4),
   },

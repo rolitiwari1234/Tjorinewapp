@@ -1,14 +1,14 @@
 import React from "react";
 import { Text } from "react-native";
 import { createBottomTabNavigator } from "@react-navigation/bottom-tabs";
-import HomeScreen from "../Src/Screens/Tabscreen/HomeScreen";
-import CategoriesScreen from "../Src/Screens/Tabscreen/CategoriesScreen";
-import SearchScreen from "../Src/Screens/Tabscreen/SearchScreen";
-import BagScreen from "../Src/Screens/Tabscreen/BagScreen";
-import AccountScreen from "../Src/Screens/Tabscreen/AccountScreen";
+import HomeScreen from "../src/screens/Tabscreen/HomeScreen";
+import CategoriesScreen from "../src/screens/Tabscreen/CategoriesScreen";
+import SearchScreen from "../src/screens/Tabscreen/SearchScreen";
+import BagScreen from "../src/screens/Tabscreen/BagScreen";
+import AccountScreen from "../src/screens/Tabscreen/AccountScreen";
 import { useFonts } from "expo-font";
 import Svg, { Path } from "react-native-svg";
-import Colors from "./Utils/Colors";
+
 
 
 const Tab = createBottomTabNavigator();
@@ -23,7 +23,7 @@ export default Appnavigator = ({ props }) => {
   }
   return (
     <Tab.Navigator
-      screenOptions={{ headerShown: false, tabBarActiveTintColor: Colors.GRAY }}
+      screenOptions={{ headerShown: false, tabBarActiveTintColor: "#C0B394"}}
     >
       <Tab.Screen
         name="Home"

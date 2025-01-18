@@ -8,8 +8,8 @@ import {
   SafeAreaView,
 } from "react-native";
 import React from "react";
-import Plpdata from "../../../Src/Data/Plpdata";
-import Productwidget from "../../../Src/Component/Productwidget";
+import Plpdata from "../../../src/data/Plpdata";
+import Productwidget from "../../../src/component/Productwidget";
 import Svg, { Path } from "react-native-svg";
 
 

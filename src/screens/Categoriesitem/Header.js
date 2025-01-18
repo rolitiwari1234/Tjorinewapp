@@ -1,8 +1,7 @@
 import { SafeAreaView, Text } from "react-native";
 import React from "react";
 import { useFonts } from "expo-font";
-import Colors from "@/Src/Utils/Colors";
-import Headerpage from "../../../Src/Component/Headerpage";
+import Headerpage from "../../../src/component/Headerpage";
 import Svg, { Path } from "react-native-svg";
 
 const Header = (props) => {

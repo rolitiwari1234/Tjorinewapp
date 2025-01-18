@@ -64,7 +64,7 @@ const styles = StyleSheet.create({
     justifyContent: "center",
     alignItems: "center",
     fontSize: 24,
-    color: Colors.WHITE,
+    color: '#fff',
     fontWeight: "bold",
     fontFamily: "PlayfairDisplay-Regular",
   },

@@ -1,6 +1,6 @@
 import { View, Text, FlatList, Image, StyleSheet, TouchableOpacity } from "react-native";
 import React from "react";
-import Categoriesdata from "../../Data/Categoriesdata";
+import Categoriesdata from "../../data/Categoriesdata";
 import { useNavigation } from "@react-navigation/native";
 
 const Categorieslogo = () => {

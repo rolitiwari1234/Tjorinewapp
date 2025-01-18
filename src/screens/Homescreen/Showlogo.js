@@ -7,7 +7,7 @@ import {
   TouchableOpacity,
 } from "react-native";
 import React from "react";
-import LogoData from "../../../Src/Data/LogoData";
+import LogoData from "../../../src/data/LogoData";
 import { useNavigation } from "@react-navigation/native";
 
 const Showlogo = () => {

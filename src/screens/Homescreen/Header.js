@@ -1,6 +1,6 @@
 import { View } from "react-native";
 import React from "react";
-import Headerpage from "../../../Src/Component/Headerpage";
+import Headerpage from "../../../src/component/Headerpage";
 import Svg, { Path } from "react-native-svg";
 const Header = ({ props }) => {
   return (

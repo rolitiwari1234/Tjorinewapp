@@ -8,7 +8,7 @@ import {
   View,
 } from "react-native";
 import React, { useState } from "react";
-import Plpdata from "../../../Src/Data/Plpdata";
+import Plpdata from "../../../src/data/Plpdata";
 import Modal from "react-native-modal";
 import { useNavigation } from "@react-navigation/native";
 import Svg, { Path } from "react-native-svg";
@@ -17,7 +17,8 @@ import {
   responsiveWidth,
   responsiveFontSize,
 } from "react-native-responsive-dimensions";
-import Colors from "@/Src/Utils/Colors";
+
+
 
 const Plpitem = ({ props }) => {
 
@@ -186,7 +187,7 @@ const styles = StyleSheet.create({
   },
   sorttext: {
     fontSize: 14,
-    color: Colors.GRAY,
+    color: "#C0B394"
   },
 });
 

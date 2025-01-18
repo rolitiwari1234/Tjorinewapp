@@ -1,5 +1,5 @@
 
-import Appnavigator from "./Src/Appnavigator"
+import Appnavigator from "./src/Appnavigator"
 const App = () => {
   return <Appnavigator />
 };

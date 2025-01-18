@@ -1,8 +1,8 @@
 import { StyleSheet, TouchableOpacity, View } from "react-native";
 import React  from "react";
-import Topbanner from "../../../Src/Component/Topbanner"
-import Section from "@/Src/Component/Section";
-import Productwidget from "@/Src/Component/Productwidget";
+import Topbanner from "../../../src/component/Topbanner"
+import Section from "@/src/component/Section";
+import Productwidget from "@/src/component/Productwidget";
 import { useNavigation } from "@react-navigation/native";
 
 const Categoriesbanner = () => {

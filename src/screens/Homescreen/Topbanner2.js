@@ -1,8 +1,8 @@
 import { StyleSheet, View } from "react-native";
 import React from "react";
-import Topbanner from "../../../Src/Component/Topbanner";
-import Productwidget from "../../../Src/Component/Productwidget";
-import Section from "../../../Src/Component/Section";
+import Topbanner from "../../../src/component/Topbanner";
+import Productwidget from "../../../src/component/Productwidget";
+import Section from "../../../src/component/Section";
 
 const Topbanner2 = () => {
   return (

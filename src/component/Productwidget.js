@@ -7,7 +7,7 @@ import {
   ScrollView,
 } from "react-native";
 import React from "react";
-import Colors from "../Utils/Colors";
+
 
 const Productwidget = ({
   image1,
@@ -98,12 +98,12 @@ const styles = StyleSheet.create({
     fontWeight: "bold",
   },
   pertext: {
-    color:Colors.RED,
+    color:'#770806',
   },
   lineview: {
     // height: 1,
     borderBottomWidth:.2,
-    backgroundColor: Colors.LIGHT_GRAY,
+    backgroundColor: "#8F8F8F",
     marginVertical: 20,
     marginHorizontal: 10,
   },
